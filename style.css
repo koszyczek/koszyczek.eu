@@ -56,7 +56,7 @@
     80% {
       opacity: 0.6;
       transform: translateY(5%);
-      transform: scale(1);
+      transform: scale(0.9);
     }
 
     100% {
@@ -93,7 +93,7 @@
     80% {
       opacity: 0.6;
       transform: translateY(5%);
-      transform: scale(1);
+      transform: scale(0.9);
     }
 
     100% {
@@ -151,8 +151,8 @@
         left:170px;
       }
     
-      @import 'https://fonts.googleapis.com/css2?family=VT323';
-      body{font-family:VT323,sans-serif;background-image:url('ezgif.com-video-to-gif.gif');
+      @import 'https://fonts.googleapis.com/css2?family=Jost';
+      body{font-family:Jost,sans-serif;background-image:url('ezgif.com-video-to-gif.gif');
        
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */

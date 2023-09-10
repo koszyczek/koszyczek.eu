@@ -1,7 +1,7 @@
 
 
   .lineUp {
-    animation: 2s anim-lineUp ease-out 1 both;
+    animation: 3s anim-lineUp ease-out 1 both;
   }
   @keyframes anim-lineUp {
     0% {
@@ -9,22 +9,12 @@
       transform: translateY(600%);
       transform: scale(0.2);
     }
-    20% {
-      opacity: 0;
-      transform: scale(0.4);
-      transform: translateY(8%);
-    }
     50% {
       opacity: 0.6;
       transform: translateY(3%);
       
     }
     
-    80% {
-      opacity: 0.8;
-      transform: translateY(5%);
-    }
-
     100% {
       opacity: 1;
       transform: translateY(0%);
@@ -42,22 +32,7 @@
       transform: translateY(600%);
       transform: scale(0.0);
     }
-    20% {
-      opacity: 0;
-      transform: scale(0.2);
-    }
-    50% {
-      opacity: 0.6;
-      transform: translateY(5%);
-      transform: scale(0.3);
-      
-    }
     
-    80% {
-      opacity: 0.6;
-      transform: translateY(5%);
-      transform: scale(0.9);
-    }
 
     100% {
       opacity: 1;
@@ -79,23 +54,13 @@
       transform: translateY(600%);
       transform: scale(0.2);
     }
-    20% {
-      opacity: 0;
-      transform: scale(0.4);
+   
+    70% {
+      opacity: 1;
+      transform: translateY(0%);
+      transform: scale(1.4);
     }
-    50% {
-      opacity: 0.6;
-      transform: translateY(5%);
-      transform: scale(0.6);
-      
-    }
-    
-    80% {
-      opacity: 0.6;
-      transform: translateY(5%);
-      transform: scale(0.9);
-    }
-
+  
     100% {
       opacity: 1;
       transform: translateY(0%);
@@ -151,8 +116,8 @@
         left:170px;
       }
     
-      @import 'https://fonts.googleapis.com/css2?family=Jost';
-      body{font-family:Jost,sans-serif;background-image:url('ezgif.com-video-to-gif.gif');
+      @import 'https://fonts.googleapis.com/css2?family=Nunito+Sans';
+      body{font-family:Nunito Sans,sans-serif;background-image:url('ezgif.com-video-to-gif.gif');
        
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
@@ -169,7 +134,7 @@
           }
           .content{height:500px;width:800px;border-radius:25px;background-color:#0d0d10;position:absolute;-webkit-box-shadow:8px 8px 100px 11px #0d0d10;-moz-box-shadow:8px 8px 100px 11px #0d0d10;box-shadow:8px 8px 100px 11px #0d0d10;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.bannerImg{object-fit:cover;width:500px;height:150px;border-top-left-radius:25px;border-top-right-radius:25px;filter:brightness(50%)}
           .avatarImg{border-radius:100px;border:10px solid;border-color:transparent;width:150px;height:150px;filter:brightness(80%);border-radius:50%;margin-top:-80px;margin-left:165px}
-          .user p{color:#fff;text-align:center;font-size:120px;margin-bottom:20px}
+          .user p{color:#fff;text-align:center;font-size:60px;margin-bottom:20px}
           .user1 p{text-align:center;font-size:15px;margin-bottom:20px}
           .links i{transition:300ms;color:#b3b2c5}
           .links i:hover{transition:800ms;color:#61606b;cursor:pointer}

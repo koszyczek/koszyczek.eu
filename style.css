@@ -33,6 +33,11 @@
       transform: scale(0.0);
     }
     
+    50%{
+      opacity: 0.5;
+      transform: translateY(100%);
+      transform: scale(0.7);
+    }
 
     100% {
       opacity: 1;
@@ -115,6 +120,10 @@
       .justalilmoremoremore{
         left:170px;
       }
+
+    
+
+      
     
       @import 'https://fonts.googleapis.com/css2?family=Nunito+Sans';
       body{font-family:Nunito Sans,sans-serif;background-image:url('ezgif.com-video-to-gif.gif');

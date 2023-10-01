@@ -1,155 +1,311 @@
+@import 'https://fonts.googleapis.com/css?family=Gabarito&effect=anaglyph|fire-animation|3d';
 
+/* Animation for .lineUp */
+.lineUp {
+  animation: 3s anim-lineUp ease-in-out 1 both;
+}
 
-  .lineUp {
-    animation: 3s anim-lineUp ease-out 1 both;
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(600%) scale(0.2);
   }
-  @keyframes anim-lineUp {
-    0% {
-      opacity: 0;
-      transform: translateY(600%);
-      transform: scale(0.2);
-    }
-    50% {
-      opacity: 0.6;
-      transform: translateY(3%);
-      
-    }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes animateGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+/* Animation for .lineUpasd */
+.lineUpasd {
+  animation: 2s anim-lineUpasd ease-in-out 1 both;
+}
+
+@keyframes anim-lineUpasd {
+  0% {
+    opacity: 0;
+    transform: translateY(111%) 
+    scale(0.2);
+  }
+
+  50% {
+    opacity: 0.6;
+    transform: scale(0.5);
     
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-      transform: scale(1);
-    }
-  }
-  
-  
-  .lineUp2 {
-    animation: 5s anim-lineUp2;
-  }
-  @keyframes anim-lineUp2 {
-    0% {
-      opacity: 0;
-      transform: translateY(600%);
-      transform: scale(0.0);
-    }
-    
-    50%{
-      opacity: 0.5;
-      transform: translateY(100%);
-      transform: scale(0.7);
-    }
-
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-      transform: scale(0.8);
-    }
   }
 
-  .lineUp3 {
-    animation: 2s anim-lineUp3;
-  }
-
-  .lineUp2 {
-    animation: 2s anim-lineUp2;
-  }
-  @keyframes anim-lineUp3 {
-    0% {
-      opacity: 0;
-      transform: translateY(600%);
-      transform: scale(0.2);
-    }
+  100% {
+    opacity: 1;
+    transform: translateY(100%)  scale(1);
    
-    70% {
-      opacity: 1;
-      transform: translateY(0%);
-      transform: scale(1.4);
-    }
-  
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-      transform: scale(1);
-    }
   }
-  
+}
 
+/* Animation for .lineUp2 */
+.lineUp2 {
+  animation: 2s anim-lineUp2 ease-in-out 1 both;
+}
 
-  img {
-    transition: transform 0.25s;
-    border-radius: 40px;
+@keyframes anim-lineUp2 {
+  0% {
+    opacity: 0;
+    transform: scale(0.0);
   }
 
-  
-
-  .icons {
-    transform: scale(0.8);
+  50% {
+    opacity: 0.2;
+    transform: scale(0.7);
   }
- 
-  .icons:hover {
-    transform: scale(0.9);
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%) scale(1);
   }
-  
-  
-  
-  
+}
 
-  
-  
-  
-  .fix{
-    position:fixed;
-    bottom:30px;
-    left:20px;
-      }
-  
-      .photo {
-        width: 40px;
-        height: 40px;
-        overflow: hidden;
-      }
-  
-      .justalilmore{
-        left:70px;
-      }
-  
-      .justalilmoremore{
-        left:120px;
-      }
+/* Animation for .lineUp3 */
+.lineUp3 {
+  animation: 2s anim-lineUp3 ease-in-out;
+}
 
-      .justalilmoremoremore{
-        left:170px;
-      }
+@keyframes anim-lineUp3 {
+  0% {
+    opacity: 0;
+    transform: translateY(600%) scale(0.2);
+  }
 
-    
+  70% {
+    opacity: 0.7;
+    transform: translateY(0%) scale(1.1);
+  }
 
-      
-    
-      @import 'https://fonts.googleapis.com/css2?family=Nunito+Sans';
-      body{font-family:Nunito Sans,sans-serif;background-image:url('ezgif.com-video-to-gif.gif');
-       
-        background-position: center; /* Center the image */
-        background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: width="100%" height="100%";
-          }
-          body{ 
-            background-position: center; /* Center the image */
-            background-repeat: no-repeat; /* Do not repeat the image */
-          /* Resize the background image to cover the entire container */
-            background:linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.8) ),url('ezgif.com-video-to-gif.gif');
-            background-attachment: fixed;
-            background-size: width="100%" height="100%";
+  100% {
+    opacity: 1;
+    transform: translateY(0%) scale(0.8);
+  }
+}
 
-          }
-          .content{height:500px;width:800px;border-radius:25px;background-color:#0d0d10;position:absolute;-webkit-box-shadow:8px 8px 100px 11px #0d0d10;-moz-box-shadow:8px 8px 100px 11px #0d0d10;box-shadow:8px 8px 100px 11px #0d0d10;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.bannerImg{object-fit:cover;width:500px;height:150px;border-top-left-radius:25px;border-top-right-radius:25px;filter:brightness(50%)}
-          .avatarImg{border-radius:100px;border:10px solid;border-color:transparent;width:150px;height:150px;filter:brightness(80%);border-radius:50%;margin-top:-80px;margin-left:165px}
-          .user p{color:#fff;text-align:center;font-size:60px;margin-bottom:20px}
-          .user1 p{text-align:center;font-size:15px;margin-bottom:20px}
-          .links i{transition:300ms;color:#b3b2c5}
-          .links i:hover{transition:800ms;color:#61606b;cursor:pointer}
-          .links{color:transparent;text-align:center;text-decoration:none;background-color:#131318;padding:10px 100px;border-radius:8px;height:30px;width:250px;left:50%;margin-left:25px}
-          .links a{margin-left:3px;color:transparent}.e404{position:absolute;left:50%;top:50%}@media screen and (max-width:1200px){
-              .content{height:800px;width:700px}
-              .links{padding-left:10px;padding:10px;border-radius:8px;height:30px;width:280px;left:50%;margin-left:25px}
-              .bannerImg{object-fit:cover;width:700px}
-          .avatarImg{margin-top:-80px;margin-left:90px}}
+/* Styling for images */
+img {
+  transition: transform 0.25s;
+  border-radius: 40px;
+}
+
+/* Styling for icons */
+.icons {
+  transform: scale(0.8);
+  filter: brightness(50%);
+}
+
+.icons:hover {
+  transform: scale(0.9);
+  filter: brightness(70%);
+}
+
+/* Styling for .fix */
+.fix {
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+}
+
+/* Styling for .photo */
+.photo {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+/* Styling for .justalilmore */
+.justalilmore {
+  left: 70px;
+}
+
+/* Styling for .justalilmoremore */
+.justalilmoremore {
+  left: 120px;
+}
+
+/* Styling for .justalilmoremoremore */
+.justalilmoremoremore {
+  left: 170px;
+}
+
+/* Body styling */
+body {
+  font-family: "Gabarito";
+  background-image: url(https://tuckerandmikesgnarlyextremeblog.files.wordpress.com/2017/03/9ca14e23ebbc1fc56d6ee16ef04c87f2_super-rare-8-bit-pepe-8-bit-space-background-gif_493-277.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://tuckerandmikesgnarlyextremeblog.files.wordpress.com/2017/03/9ca14e23ebbc1fc56d6ee16ef04c87f2_super-rare-8-bit-pepe-8-bit-space-background-gif_493-277.gif);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/* Styling for .content */
+.content {
+  height: 500px;
+  width: 1000px;
+  overflow: hidden;
+  border-radius: 25px;
+  background-color: #0d0d10e5;
+  position: absolute;
+  -webkit-box-shadow: 16px 16px 300px 11px #0000ff;
+  -moz-box-shadow: 8px 8px 100px 11px #0d0d10;
+  box-shadow: 8px 8px 100px 11px #0d0d10;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Styling for .bannerImg */
+.bannerImg {
+  object-fit: cover;
+  width: 500px;
+  height: 150px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  filter: brightness(50%);
+}
+
+/* Styling for .avatarImg */
+.avatarImg {
+  border-radius: 100px;
+  border: 10px solid transparent;
+  width: 200px;
+  height: 40px;
+  filter: brightness(80%);
+  border-radius: 10%;
+  right: 500px;
+}
+
+/* Styling for .user */
+.user p {
+  text-align: left;
+  font-size: 45px;
+  margin-left: 28px;
+  transform: none;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-image: linear-gradient(45deg, #ffffff, #ff00f2);
+  position:relative;
+  top: -50px;
+  margin-top: 5px; /* Add this line to set the margin from the top */
+}
+
+/* Styling for .user1 */
+.user1 p {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-image: linear-gradient(45deg, #e100ff, #002fff);
+  animation: animateGradient 0.2s ease-in-out infinite; /* Adjust animation duration as needed */
+  text-align: left;
+  font-size: 29px;
+  margin-bottom:-27px;
+  margin-left: 28px;
+  transform: none;
+  top: 15px;  
+  position: relative;
+}
+
+/* Styling for .links */
+.links i {
+  transition: 300ms;
+  color: #b3b2c5;
+}
+
+.links i:hover {
+  transition: 800ms;
+  color: #61606b;
+  cursor: pointer;
+}
+
+.links {
+  color: transparent;
+  text-align: center;
+  text-decoration: none;
+  background-color: #131318;
+  padding: 10px 100px;
+  border-radius: 8px;
+  height: 30px;
+  width: 250px;
+  left: 50%;
+  margin-left: 26px;
+}
+
+.links a {
+  margin-left: 3px;
+  color: transparent;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 1200px) {
+  .content {
+    height: 800px;
+    width: 700px;
+  }
+
+  .links {
+    padding-left: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    height: 30px;
+    width: 280px;
+    left: 50%;
+    margin-left: 25px;
+  }
+
+  .bannerImg {
+    object-fit: cover;
+  }
+}
+
+/* Styling for .allat */
+.allat {
+  position: fixed;
+}
+
+/* Styling for .pfp */
+.pfp {
+  border-radius: 100px;
+  border: 10px solid transparent;
+  width: 200px;
+  height: 200px;
+  filter: brightness(80%);
+  border-radius: 15%;
+  -webkit-box-shadow: 16px 16px 300px 11px #0000ff;
+  -moz-box-shadow: 8px 8px 100px 11px #0d0d10;
+  box-shadow: 8px 8px 10px 11px #0d0d10;
+  right: 22%;
+  top: 25%;
+  -webkit-transform: translate(50%, 50%);
+  transform: translate(-50%, -50%);
+  position: absolute; /* Change this to absolute */
+  filter: brightness(50%);
+}
+
+* {
+  user-select: none;
+}

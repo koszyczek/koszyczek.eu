@@ -67,6 +67,32 @@
   }
 }
 
+.lineUpasdasd {
+  animation: 1.8s anim-lineUpasdasd ease-in-out 1 both;
+}
+
+@keyframes anim-lineUpasdasd {
+  0% {
+    opacity: 0;
+    transform: translateX(0%);
+    transform: rotate(90deg);
+
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  80% {
+    opacity: 0.9;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(105%)  scale(1);
+  }
+}
+
 /* Animation for .lineUp2 */
 .lineUp2 {
   animation: 3s anim-lineUp2 ease-in-out 1 both;
@@ -159,17 +185,17 @@ img {
 
 /* Styling for .justalilmore */
 .justalilmore {
-  left:80px;
+  left:78px;
 }
 
 /* Styling for .justalilmoremore */
 .justalilmoremore {
-  left: 140px;
+  left: 138px;
 }
 
 /* Styling for .justalilmoremoremore */
 .justalilmoremoremore {
-  left: 200px;
+  left: 198px;
 }
 
 /* Body styling */
@@ -184,6 +210,8 @@ body {
   background-attachment: fixed;
   background-size: 100% 100%;
 }
+
+
 
 /* Styling for .content */
 .floating {  
@@ -254,6 +282,26 @@ body {
   top: -80px;
   margin-top: 5px; /* Add this line to set the margin from the top */
 }
+.quote   {
+  text-align: left;
+  font-size: 26px;
+  font-style: italic;
+  margin-left: 28px;
+  transform: none;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-image: linear-gradient(45deg, #55173d, #ff00f2);
+  position:absolute;
+  top: 85px;
+  margin-top: 5px; /* Add this line to set the margin from the top */
+}
+
+#changeable {
+  font-size: 37px; /* Initial font size */
+}
 
 /* Styling for .user1 */
 .user1 p {
@@ -266,13 +314,13 @@ body {
   background-image: linear-gradient(60deg, #686868, #002fff);
   animation: animateGradient 0.2s ease-in-out infinite; /* Adjust animation duration as needed */
   text-align: left;
-  font-size: 41px;
-  margin-bottom:-39px;
+  font-size: 45px;
+  margin-bottom:-45px;
   margin-left: 25px;
   
   
   transform: none;
-  top: -30px;  
+  top: -100px;  
   position: relative;
 }
 
@@ -351,4 +399,64 @@ body {
 
 * {
   user-select: none;
+}
+
+.frosty-tab {
+  position: fixed;
+  top: 400px;
+  right: 300px;
+  border: 1px solid #cccccc75;
+  background-image: linear-gradient(60deg, #686868, #002fff);
+  animation: animateGradient 0.2s ease-in-out infinite; /* Adjust animation duration as needed */
+  border-radius: 5px;
+  padding: 5px 10px;
+  transform: rotate(90deg); /* Rotate the tab */
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: "Gabarito";
+  font-size: 32px;
+}
+
+.movethetab{
+  top: 500px;
+  right: 300px;
+}
+
+.frosty-tab:hover {
+  background-color: #c0c0c0;
+  transform: scale(5);
+  transform: rotate(90deg); /* Darker gray background on hover */
+}
+
+/* Style the link within the tab */
+.frosty-tab a {
+  text-decoration: none;
+  color: #ffffff; /* Text color */
+}
+
+.catcornertext p{
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  text-shadow: 15px 15px 15px #131318;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-image: linear-gradient(60deg, #ff0000, #ffffff);
+  animation: animateGradient 0.2s ease-in-out infinite; /* Adjust animation duration as needed */
+  text-align: left;
+  font-size: 60px;
+  margin-bottom: -45px;
+  margin-left: 25px;
+  
+  
+  transform: none;
+  top: -100px;  
+  position: relative;
+}
+
+.cat{
+
+  top: 580px;
+  
 }

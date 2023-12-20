@@ -165,8 +165,9 @@ img {
 }
 
 .icons:hover {
-  transform: scale(0.9);
+  transform: scale(0.9) rotate3d(1, 0, 0, 15deg);;
   filter: brightness(70%);
+  
 }
 
 /* Styling for .fix */
@@ -280,7 +281,8 @@ body {
   background-image: linear-gradient(45deg, #55173d, #ff00f2);
   position:relative;
   top: -80px;
-  margin-top: 5px; /* Add this line to set the margin from the top */
+  transition: transform 0.25s;
+    margin-top: 5px; /* Add this line to set the margin from the top */
 }
 .quote   {
   text-align: left;
@@ -305,6 +307,7 @@ body {
 
 /* Styling for .user1 */
 .user1 p {
+  transition: transform 0.25s;
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -323,7 +326,9 @@ body {
   top: -100px;  
   position: relative;
 }
-
+p:hover{
+  transform: scale(0.73) translateY(-2) rotate3d(1, 1, 0, 25deg);
+}
 /* Styling for .links */
 .links i {
   transition: 300ms;

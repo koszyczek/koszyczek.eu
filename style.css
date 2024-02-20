@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/inclusive-sans-2');
+@import url('https://fonts.cdnfonts.com/css/x360');
 :root {
   font-size: 20px;
 }
@@ -18,7 +18,7 @@ p:not(:last-child) {
 }
 
 body {
-  font-family: 'Inclusive Sans', sans-serif;
+  font-family: 'X360 by Redge', sans-serif;
                                                 
 
   display: flex;
@@ -31,8 +31,8 @@ body {
   
   color: rgb(136, 0, 170);
   background:
-  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(https://i.pinimg.com/originals/33/6e/cc/336eccdfd0f5a053a89f8705e4561356.gif)
-    center / cover  fixed;
+  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://media.discordapp.net/attachments/1128747403416191059/1195055305814462494/watermark.gif?ex=65e0bd7b&is=65ce487b&hm=51221d67ec3ef6358a19a62598e90a1c15806b75061054a1aa3ff4b7c3e6b27b&)
+
 }
 
 .card {
@@ -45,18 +45,17 @@ body {
   max-width: 900px;
   height: 300px;
   padding: 35px;
-
-  border: 1px solid rgba(119, 0, 255, 0.25);
-  border-radius: 20px;
-  background-color: rgba(117, 117, 117, 0.45);
-  box-shadow: 0 0 10px 1px rgba(119, 0, 255, 0.25);
+  border-radius: 34px;
+  background: linear-gradient(145deg, #323142, #3b3a4e);
+  box-shadow:  35px 35px 88px #21202c,
+               -35px -35px 88px #4d4c66;
 
   backdrop-filter: blur(15px);
   animation: fadeIn 3.2s ease-out;
 }
 
 .card-footer {
-  font-size: 0.78em;
+  font-size: 0.73em;
   color: rgb(255, 255, 255);
   position: fixed;
   bottom: 250px;
@@ -64,9 +63,16 @@ body {
 }
 
 .link-footer {
-  font-size: 0.9em;
+  font-size: 1em;
   color: rgb(255, 255, 255);
-  
+  transition: transform 0.3s ease;
+  text-decoration: none;
+  position: relative;
+  top: -30px;
+}
+
+.link-footer:hover{
+  transform: scale(1.1);
 }
 
 
@@ -78,9 +84,32 @@ body {
   width: 50%;
 }
 
-a {
-  text-decoration: underline dotted #da28e0;
+
+.floating2 {
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 55px;
+  padding-bottom: -30%;
+  padding-top: -30%;
+  bottom:266px;
+  left: 700px;
+  animation: fadeIn 3.2s ease-out;  
+  text-decoration: none;
 }
+
+.floating3 {
+  font-size: 0.9em;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  padding-bottom: -10%;
+  padding-top: -10%;
+  top: -200px;
+  left: 715px;
+  animation: fadeIn 3.2s ease-out;  
+  text-decoration: none;
+}
+
 
 .nonfootertext{
   background-clip: text;
@@ -89,9 +118,9 @@ a {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   background-image: linear-gradient(45deg, #ffffff, #ff00f2);
-  font-size: 25px;
-  margin-bottom: -30%;
-  margin-top: -5%;
+  font-size: 28px;
+  position: relative;
+  top: -30px;
 }
 
 .title{
@@ -120,3 +149,6 @@ a {
   user-select: none;
 }
 
+.nightscout{
+
+}

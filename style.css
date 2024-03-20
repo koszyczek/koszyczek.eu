@@ -30,9 +30,8 @@ body {
   margin: 0;
   
   color: rgb(136, 0, 170);
-  background:
-  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://media.tenor.com/4cAqfBJk6kAAAAPo/erm-what-the-floppity-flip-wgat.mp4)
-
+  background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://media1.tenor.com/m/KI43R5iTCeQAAAAd/cat-reverse.gif);
+  background-size: 100% auto; 
 }
 
 .card {
@@ -149,6 +148,4 @@ body {
   user-select: none;
 }
 
-.nightscout{
 
-}

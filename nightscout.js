@@ -36,6 +36,6 @@ function getArrowUnicode(direction) {
 }
 
 getNightscoutData().then(data => {
-    const mergedValue = `${data.bloodSugar} ${data.arrow}`;
+    const mergedValue = `${data.bloodSugar}${data.arrow}`;
     document.querySelector('#blood-sugar-and-arrow').innerHTML = mergedValue; // Assuming you have an element with id 'blood-sugar-and-arrow'
 });

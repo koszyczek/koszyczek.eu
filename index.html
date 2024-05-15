@@ -3,110 +3,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Koszyczek</title>
-    
-    <link rel="stylesheet" href="style.css">
-    <script >
-        var strings = [
-            "“My nipples are legally registered as speed bumps for mosquitos” - Bridget",
-            "“Fuck you Bridget” - Lurit",
-            "“öö - estonia” - Lurit",
-            "“Those who are heartless once cared too much...” - Raven",
-            "“Our university campus has fantastic sports facities”  - Bridget",
-            "“What are the Democratic Portuguese doing in the Axis?”  - Lurit",
-            "“Cheese.”  - Lurit",
-            "“The Kingdom of Poland is currently ran by a chair Nate..”  - Bridget",
-             "“BZZZZZZZZZZZZZZZZZ”  - Bridget's Phone",
-             "“JOHN DILLLLLLLLLLLERMAND“ - Bridget & Lurit",
-             "“I am sucking a tank exhaust“ - Lurit",
-             "“GLORY TO JOHN DILLLERRMANDD“ - Lurit",
-             "“sperma byka“ - Królowa Loda",
-             "“România Markiplier” - Rubyy",
-    "“you know what? I could massacre and nail leftists to the fence” - Królowa Loda",
-    "“fuck you bridget” - KinitoPET (may or may not be real)",
-    "“The Kingdom of Poland is currently ran by a chair Nate..”  - Bridget",
-     "“im FADED”  - Tudor",
-     "“Cartjamin Day!?”  - Tudor",
-     "“if i wont kill myself in 2024 ill become an furry artist“ - Bridget",
-        ];
-        
-        
-        
-        window.onload = function() {
-            var randomIndex = Math.floor(Math.random() * strings.length);
-            var randomString = strings[randomIndex];
-            document.getElementById("randomString").textContent = randomString;
-        };
-        
-        </script>
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <script>
+      var strings = [
+          "“My nipples are legally registered as speed bumps for mosquitos” - Bridget",
+          "“Fuck you Bridget” - Lurit",
+          "“öö - estonia” - Lurit",
+          "“Those who are heartless once cared too much...” - Raven",
+          "“Our university campus has fantastic sports facities”  - Bridget",
+          "“What are the Democratic Portuguese doing in the Axis?”  - Lurit",
+          "“Cheese.”  - Lurit",
+          "“The Kingdom of Poland is currently ran by a chair Nate..”  - Bridget",
+           "“BZZZZZZZZZZZZZZZZZ”  - Bridget's Phone",
+           "“JOHN DILLLLLLLLLLLERMAND“ - Bridget & Lurit",
+           "“I am sucking a tank exhaust“ - Lurit",
+           "“GLORY TO JOHN DILLLERRMANDD“ - Lurit",
+           "“sperma byka“ - Królowa Loda",
+           "“România Markiplier” - Rubyy",
+  "“you know what? I could massacre and nail leftists to the fence” - Królowa Loda",
+  "“fuck you bridget” - KinitoPET (may or may not be real)",
+  "“The Kingdom of Poland is currently ran by a chair Nate..”  - Bridget",
+   "“im FADED”  - Tudor",
+   "“Cartjamin Day!?”  - Tudor",
+   "“if i wont kill myself in 2024 ill become an furry artist“ - Bridget",
+      ];
+      window.onload = function() {
+          var randomIndex = Math.floor(Math.random() * strings.length);
+          var randomString = strings[randomIndex];
+          document.getElementById("randomString").textContent = randomString;
+      };
+     
+      $( function() {
+        $( "#draggable" ).draggable();
+        $( "#draggable" ).draggable({containment: "parent"});
+        $( "#draggable" ).draggable({
+  opacity: 0.35
+});
 
-        <script src='oneko.js'></script>
+  } );
 
+
+  
+
+ 
       
-        
+      </script>
 </head>
-<body>
-    <div class="window">
-        <div class="inner">
-          <div class="header">
-            <div class="icon"></div>
-            Koszyczek
-            <div class="buttons"></div>
-          </div>
-          <div class="actions" id="randomString">
-            
-          </div>
-          <div class="content">
-            <div class="inner">
-              <p><b>hi my name is bridget, im a trans game developer from poland</b><br> im working on a few silly little games that should be coming out soon :3 im a very uhmm <i>unusual person</i>, i have loads of interests (such as: programming, game dev/design, chit chatting with ppl) and im overall quite a friendly person :3 :3 :3</p>
-              <p>you can chit chat to me on twitter or discord, im chronically online so it probably wont take long for me to reply,</p>
-              <p>if anyone wants to playtest one of my awful games; please dm me on twitter</p>
-              <a class="smol " href="https://github.com/adryd325/oneko.js">pssst you can spawn a cat by pressing anything on your keyboard :3</a> 
-            </div>
-          </div>
+<body style="background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3b896fbb-7cfc-4773-9d62-e58b41c3d95a/dfqqh15-c4d8db86-ea10-4bb6-b25a-5070745b19bf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNiODk2ZmJiLTdjZmMtNDc3My05ZDYyLWU1OGI0MWMzZDk1YVwvZGZxcWgxNS1jNGQ4ZGI4Ni1lYTEwLTRiYjYtYjI1YS01MDcwNzQ1YjE5YmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.LUqzSOoey2L3LwS-vLgu_b7B3B20S9VsISvy4iRP4Ko'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+  <script>NekoType="white"</script>
+  <h1 id=nl><script src="https://webneko.net/n20171213.js"></script><a 
+  href="https://webneko.net">Neko</a></h1>
+   <div class="window" id="draggable" style="width: fit-content;">
+      <div class="title-bar">
+        <div class="title-bar-text">bridget <3</div>
+        <div class="title-bar-controls">
+          <button aria-label="Minimize"></button>
+          <button aria-label="Restore"></button>
+          <button aria-label="Close"></button>
         </div>
       </div>
-      
-      
-      
-      <div class="window description">
-        <div class="inner">
-          <div class="header">
-            <div class="icon"></div>
-            discord
-            <div class="buttons"></div>
-          </div>
-          <div class="content">
-            <div class="inner">
-              <iframe
-              title="Discord user embed"
-              width="340"
-              height=120
-              frameborder="0"
-              sandbox="allow-scripts"
-              src="https://widgets.vendicated.dev/user?id=1021012076963045408&theme=light&banner=true&full-banner=false&rounded-corners=true&discord-icon=true&badges=true&guess-nitro=true&"
-          ></iframe>
-            </div>
-          </div>
+        <div class="window-body" id="mirror">
+          <p style="font-size:x-large;"> <strong style="color: purple"> ✨ hi my name is bridget, im a trans game developer from poland ✨</strong></p>
+          <ul>
+            <li style="font-size: large;"> im working on a few silly little games that should be coming out soon :3 </li>
+            <li style="font-size: large;"> i have loads of interests (such as: programming, game dev/design, chit chatting with ppl) and im overall quite a friendly person :3 :3 :3</li>
+            <li style="font-size: large;"> you can chit chat to me everywhere, im chronically online so it probably wont take long for me to reply </li>
+        </ul>
+
+        <a href="https://twitter.com/brdigei"><button display: flex>twitter</button></a>
+        <a href="https://twitter.com/brdigei"><button display: flex>github</button></a>
+        <a href="https://twitter.com/brdigei"><button display: flex>itch.io (empty)</button></a>
+        <a href="https://twitter.com/brdigei"><button display: flex>nightscout</button></a>
+        <a href="https://discord.com/users/1021012076963045408"><button display: flex>discord</button></a>
+      </div>
+
+       
+
+        <div class="status-bar">
+          <p id="randomString"class="status-bar-field">Press F1 for help</p>
+          <p class="status-bar-field">click on the cat if u want it to follow u :3</p>
         </div>
       </div>
-      
-      <div class="window description">
-        <div class="inner">
-          <div class="header">
-            <div class="icon"></div>
-            Links to stuff :3
-            <div class="buttons"></div>
-          </div>
-          <div class="content">
-            <div class="inner">
-                <a  href="https://twitter.com/brdigei">twitter</a>
-                <a  href="https://github.com/koszyczek">github</a>
-                <a  href="https://web-production-4268.up.railway.app/">nightscout</a>
-                <a  href="https://koszyczek.itch.io/"> itch.io</a> 
-            </div>
-          </div>
-        </div>
-      </div>
-      
 </body>
 </html>

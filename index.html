@@ -3,7 +3,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Koszyczek</title>
-    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/xp.css"
+>
+    <style> 
+      *{
+        -webkit-font-smoothing: subpixel-antialiased
+}
+
+    </style>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
@@ -22,6 +31,11 @@
    "“flif floneee!! yippiee!!“ - Dani",
     "“co do sigmy“ - Dani",
    "“PLEASE VC WITH ME IM BEGGING YOU“ - Bridget to Dani",
+   "“come listen to femtanyl, we have: ear damage“ - FLXY",
+   "“I ATE HEAPS OF TIDE PODS IN 2017“ - Bridget",
+   "“This video definitely tickled my funny bone! 😂🦴 I ABSOLUTELY gotta let my bookclub know about this!“ - Leafy",
+   "“hows it like in school? have they beaten you up yet?“ - Królowa Loda (org. message in polish)",
+   "“I ever tell you about the time Keith and I made fireworks?“ - Ellis (from L4D2)",
       ];
       window.onload = function() {
           var randomIndex = Math.floor(Math.random() * strings.length);
@@ -45,11 +59,14 @@
       
       </script>
 </head>
-<body style="background-image: url('https://steamuserimages-a.akamaihd.net/ugc/2442717831260304882/3BF31C29CB759852E140ACD648673F63E6EB411C/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+<body style="background-image: url('https://i.imgur.com/7yPM7Hb.gif'); background-position: center; background-repeat: no-repeat; background-size: cover;">
   
-   <div class="window" id="draggable" style="width: fit-content;">
+   <div class="window"  style="width: 54vw; position: fixed;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);">
       <div class="title-bar">
-        <div class="title-bar-text">bridget <3</div>
+        <div class="title-bar-text"><marquee direction="up">bridget <3</marquee></div>
         <div class="title-bar-controls">
           <button aria-label="Minimize"></button>
           <button aria-label="Restore"></button>
@@ -57,33 +74,28 @@
         </div>
       </div>
         <div class="window-body" id="mirror">
-          <p style="font-size:xx-large;"> <strong style="color: purple"> ✨ hi my name is bridget, im a game developer from poland ✨</strong></p>
-          <ul>
-            <li style="font-size: large;">i do silly shit on the internet for fun and i post stupid shit on twitter lol</li>
-            <li style="font-size: large;"> i have loads of interests (such as: programming, game dev/design, chit chatting with ppl) and im overall quite a friendly person (i think)</li>
-            <li style="font-size: large;">stopped working on gamedev for a bit, will return sooner or later </li>
-            <li style="font-size: large;"> you can chit chat to me everywhere, im chronically online so it probably wont take long for me to reply </li>
-            <li style="font-size: large;"> i can speak both english and polish fluently btw</li>
-        </ul>
-
-            <script>NekoType="white"</script>
-  <h1 id=nl><script src="https://webneko.net/n20171213.js"></script><a 
-  href="https://webneko.net">Neko</a></h1>
+          <article role="tabpanel" id="tab-A">
+            <h1 style="font-size:xx-large;"> <strong style="color: purple">hi my name is bridget, im a game developer from poland ✨</strong></h1>
+            <p style="font-size: x-large;">i do silly stuff on the internet and like i really like music and gamedev and computer stuff, majoring in mechatronics (whatever the fuck that is), i have the music taste of a basic femme lesbian mixed with a uk roadman. i specifically live in silesia, quite boring here, all we can do is eat coal afterall.. im really friendly but at the same time kinda scary but like you can dm me and ill defo respond :3 ive had a ridiculous amount of hyperfixations, talk to me about practically anything and ill probably start going on and on about it lol, im fluent in english and polish (i can like somewhat understand danish, awful at actually speaking it), i oddly enjoy public transport, i shower unlike some of you, im trans (although thats quite irrelevant) and i look like osaka in real life!!!!</p>
+          </article>
             
-        <a href="https://twitter.com/brdigei"><button display: flex>twitter</button></a>
-        <a href="https://github.com/koszyczek"><button display: flex>github</button></a>
-        <a href="https://pronouns.cc/@bridget"><button display: flex>woke pronouns</button></a>
-        <a href="https://web-production-4268.up.railway.app/"><button display: flex>nightscout</button></a>
-        <a href="https://discord.com/users/1021012076963045408"><button display: flex>discord</button></a>
+        <a href="https://twitter.com/brdigei"><button display: flex>twt</button></a>
+        <a href="https://last.fm/user/BLNK_"> <button display: flex>last.fm</button></a>
+        <a href="https://pronouns.cc/@bridget"><button display: flex>woke shi</button></a>
+        <a href="https://web-production-4268.up.railway.app/"><button display: flex>nightscout (iykyk)</button></a>
       </div>
+
 
        
 
         <div class="status-bar">
-          <p id="randomString"class="status-bar-field">Press F1 for help</p>
-          <p class="status-bar-field">click on the cat if u want it to follow u :3</p>
-          <p class="status-bar-field">v39</p>
+          <p id="randomString" class="status-bar-field">Press F1 for help</p>
+          <p class="status-bar-field">version 40</p>
         </div>
       </div>
+
+
+
+      
 </body>
 </html>

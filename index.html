@@ -1,139 +1,127 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Koszyczek</title>
-    <link
-  rel="stylesheet"
-  href="https://unpkg.com/xp.css"
->
-    <style> 
-      *{
-        -webkit-font-smoothing: subpixel-antialiased
-}
+    <link rel="stylesheet" href="https://unpkg.com/xp.css">
+    <style>
+        * {
+            -webkit-font-smoothing: subpixel-antialiased;
+           
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://media1.tenor.com/m/aA7-wE0sKnEAAAAC/osaka-sata-andagi.gif');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .window {
+            width: 65vw; /* Adjusted width for responsiveness */
+            max-width: 900px;
+            position: fixed; /* Keep fixed positioning */
+        }
 
+        .butwindow {
+            width: 65vw; /* Adjusted width for responsiveness */
+            max-width: 700px;
+            position: fixed; /* Keep fixed positioning */
+        }
+        .but2window {
+            width: 98vw; /* Adjusted width for responsiveness */
+            max-width: 1840px;
+            position: fixed; /* Keep fixed positioning */
+        }
+
+
+        @media (max-width: 768px) {
+            .window {
+                width: 90%;
+            }
+        }
     </style>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
     <script>
-      var strings = [    
-          "“Fuck you Bridget” - Lurit",
-          "“öö - estonia” - Lurit",
-          "“Cheese.”  - Lurit",
-           "“I am sucking a tank exhaust“ - Lurit",
-           "“GLORY TO JOHN DILLLERRMANDD“ - Lurit",
-           "“sperma byka“ - Królowa Loda",
-           "“România Markiplier” - Solus",
-  "“you know what? I could massacre and nail leftists to the fence” - Królowa Loda",
-  "“fuck you bridget” - KinitoPET (may or may not be real)",
-   "“if i wont kill myself in 2024 ill become an furry artist“ - Bridget",
-   "“flif floneee!! yippiee!!“ - Dani",
-    "“co do sigmy“ - Dani",
-   "“PLEASE VC WITH ME IM BEGGING YOU“ - Bridget to Dani",
-   "“come listen to femtanyl, we have: ear damage“ - FLXY",
-   "“I ATE HEAPS OF TIDE PODS IN 2017“ - Bridget",
-   "“This video definitely tickled my funny bone! 😂🦴 I ABSOLUTELY gotta let my bookclub know about this!“ - Leafy",
-   "“hows it like in school? have they beaten you up yet?“ - Królowa Loda (org. message in polish)",
-   "“I ever tell you about the time Keith and I made fireworks?“ - Ellis (from L4D2)",
-      ];
-      window.onload = function() {
-          var randomIndex = Math.floor(Math.random() * strings.length);
-          var randomString = strings[randomIndex];
-          document.getElementById("randomString").textContent = randomString;
-      };
-     
-      $( function() {
-        $( "#draggable" ).draggable();
-        $( "#draggable" ).draggable({containment: "parent"});
-        $( "#draggable" ).draggable({
-  opacity: 0.35
-});
-
-  } );
-
-
-  
-
- 
-      
-      </script>
+        var strings = [
+            "“I ever tell you about the time Keith and I made fireworks?“ - Ellis (from L4D2)"
+        ];
+        window.onload = function() {
+            var randomIndex = Math.floor(Math.random() * strings.length);
+            var randomString = strings[randomIndex];
+            document.getElementById("randomString").textContent = randomString;
+        };
+    </script>
 </head>
-<body style="background-image: url('https://media1.tenor.com/m/aA7-wE0sKnEAAAAC/osaka-sata-andagi.gif'); background-position: center; background-repeat: no-repeat; background-size: cover;">
-  
-   <div class="window"  style="width: 54vw; position: fixed; bottom: 400; left: 30; transform: translate(0, 0);">
-      <div class="title-bar">
-        <div class="title-bar-text"><marquee direction="up">bridget <3</marquee></div>
-        <div class="title-bar-controls">
-          <button aria-label="Minimize"></button>
-          <button aria-label="Restore"></button>
-          <button aria-label="Close"></button>
-        </div>
-      </div>
-        <div class="window-body" id="mirror">
-          <article role="tabpanel" id="tab-A">
-            <h1 style="font-size:xx-large;"> <strong style="color: purple">hi my name is bridget, im a game developer from poland ✨</strong></h1>
-            <p style="font-size: x-large;">i do silly stuff on the internet and like i really like music and gamedev and computer stuff, majoring in mechatronics (whatever the fuck that is), i have the music taste of a basic femme lesbian mixed with a uk roadman. i specifically live in silesia, quite boring here, all we can do is eat coal afterall.. im really friendly but at the same time kinda scary but like you can dm me and ill defo respond :3 ive had a ridiculous amount of hyperfixations, talk to me about practically anything and ill probably start going on and on about it lol, im fluent in english and polish (i can like somewhat understand danish, awful at actually speaking it), i oddly enjoy public transport, i shower unlike some of you, im trans (although thats quite irrelevant) and i look like osaka in real life!!!!</p>
-            
-          </article>
-            
-        
-      </div>
-
-
-       
-
-        <div class="status-bar">
-          <p class="status-bar-field">version 41</p>
-        </div>
-      </div>
-      <div class="window" style="width: 40wh; position: fixed; bottom: 40; right: 30; transform: translate(0, 0);">
+<body>
+    <div class="window" style="bottom: 375px; left: 30px;">
         <div class="title-bar">
-            <div class="title-bar-text"><p>SILLY QUOTES</p></div>
+            <div class="title-bar-text"><marquee direction="up">bridget <3</marquee></div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Restore"></button>
+                <button aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="window-body">
+            <article role="tabpanel" id="tab-A">
+                <h1 style="font-size: xx-large; color: purple;">hi my name is bridget, im a game developer from poland ✨</h1>
+                <p style="font-size: 2.4em;">i do silly stuff on the internet and like i really like music and gamedev and computer stuff, majoring in mechatronics (whatever the fuck that is), i have the music taste of a basic femme lesbian mixed with a uk roadman. i specifically live in silesia, quite boring here, all we can do is eat coal after all.. im really friendly but at the same time kinda scary but like you can dm me and ill defo respond :3...</p>
+            </article>
+        </div>
+        <div class="status-bar">
+            <p class="status-bar-field">version 42</p>
+            <p id="randomString"  class="status-bar-field">Press F1 for help</p>
+        </div>
+    </div>
+
+  
+
+    <div class="window butwindow" style="bottom: 265px; left: 30px;">
+        <div class="title-bar">
+            <div class="title-bar-text"><p>LINKS TO MY STUFF !!</p></div>
             <div class="title-bar-controls">
                 <button aria-label="Close"></button>
             </div>
         </div>
-        <div class="window-body" id="mirror">
-          <article role="tabpanel" id="tab-A">
-                <p id="randomString" style="font-size: large;" class="status-bar-field">Press F1 for help</p>
-          </article>
+        <div class="window-body">
+            <a href="https://twitter.com/brdigei"><button>twitter</button></a>
+            <a href="https://last.fm/user/BLNK_"><button>last.fm</button></a>
+            <a href="https://pronouns.cc/@bridget"><button>pronouns.cc</button></a>
+            <a href="https://discord.com/users/1021012076963045408"><button display: flex>discord</button></a>
+            <a href="https://www.facebook.com/hitshitquick/"><button display: flex>facebook</button></a>
+            <a href="https://www.instagram.com/koszyczeklol/"><button display: flex>instagram</button></a>
+            <a href="https://steamcommunity.com/id/koszyczek/"><button>steam</button></a>
+            <a href="https://web-production-4268.up.railway.app/"><button>nightscout (iykyk)</button></a>
         </div>
     </div>
 
-    <div class="window" style="width: 40wh; position: fixed; bottom: 320; left: 30; transform: translate(0, 0);">
-      <div class="title-bar">
-          <div class="title-bar-text"><p>LINKS TO MY STUFF !!</p></div>
-          <div class="title-bar-controls">
-        
-              <button aria-label="Close"></button>
-          </div>
-      </div>
-      <div class="window-body" id="mirror">
-        <a href="https://twitter.com/brdigei"><button display: flex>twt</button></a>
-        <a href="https://last.fm/user/BLNK_"> <button display: flex>last.fm</button></a>
-        <a href="https://pronouns.cc/@bridget"><button display: flex>woke shi</button></a>
-        <a href="https://web-production-4268.up.railway.app/"><button display: flex>nightscout (iykyk)</button></a>
-      </div>
-  </div>
-
-  <div class="window" style="width: 40wh; position: fixed; bottom: 40; left: 30; transform: translate(0, 0);">
-    <div class="window-body" id="mirror">
-      
-            <img src="https://cyber.dabamos.de/88x31/ienuke.gif" alt="rahhh">        
-            <img src="https://cyber.dabamos.de/88x31/piss.gif" alt="rawr">   
-            <img src="https://cyber.dabamos.de/88x31/hatemac_b.gif" alt="rawr">   
-            <img src="https://cyber.dabamos.de/88x31/acab.gif" alt="rawr">   
-            <img src="https://cyber.dabamos.de/88x31/hl.gif" alt="rawr">   
-            <img src="https://cyber.dabamos.de/88x31/gh-pages-bo.gif" alt="rawr">   
-            <img src="https://cyber.dabamos.de/88x31/ralseismokingadart.gif" alt="rawr">   
-            <img src="https://cyber.dabamos.de/88x31/queerpride.gif" alt="rawr">   
-            <img src="https://cyber.dabamos.de/88x31/nb-bbbut.gif" alt="rawr">   
-            <img src="https://anlucas.neocities.org/linux_powered.gif" alt="rawr">   
-            <img src="https://cyber.dabamos.de/88x31/hello_kitty.gif" alt="rawr">   
-     
+    <div class="window but2window" style="bottom: 40px; left: 30px;">
+        <div class="window-body">
+            <img src="https://cyber.dabamos.de/88x31/ienuke.gif" alt="rahhh">
+            <img src="https://cyber.dabamos.de/88x31/piss.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/hatemac_b.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/acab.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/hl.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/gh-pages-bo.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/ralseismokingadart.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/queerpride.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/nb-bbbut.gif" alt="rawr">
+            <img src="https://anlucas.neocities.org/linux_powered.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/hello_kitty.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/dbfire88.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/miku.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/bigbrother.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/nowebp.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/transnow2.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/vscbutton.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/crushit.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/1080p.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/blink-0.gif" alt="rawr">
+        </div>
     </div>
-</div>
-    
 </body>
 </html>

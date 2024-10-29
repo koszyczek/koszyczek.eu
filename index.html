@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Koszyczek</title>
-    <link rel="stylesheet" href="https://unpkg.com/xp.css">
+    <link rel="stylesheet" href="https://unpkg.com/7.css">
     <style>
         * {
             -webkit-font-smoothing: subpixel-antialiased;
@@ -12,21 +12,22 @@
         }
         body {
             margin: 0;
+            display:flex; flex-direction:column; justify-content:center;
             padding: 0;
-            background-image: url('https://media1.tenor.com/m/aA7-wE0sKnEAAAAC/osaka-sata-andagi.gif');
-            background-position: center;
+            background-image: url('https://preview.redd.it/i-made-a-sakaki-bliss-wallpaper-in-1920-1080-v0-gmz54s2fm4sc1.jpeg?auto=webp&s=f101e0768339acd5bab3867d411c47c0db2da304');
+            
             background-repeat: no-repeat;
             background-size: cover;
         }
         .window {
             width: 65vw; /* Adjusted width for responsiveness */
-            max-width: 900px;
-            position: fixed; /* Keep fixed positioning */
+            max-width: 1300px;
+            /* Keep fixed positioning */
         }
 
         .butwindow {
             width: 65vw; /* Adjusted width for responsiveness */
-            max-width: 700px;
+            max-width: 850px;
             position: fixed; /* Keep fixed positioning */
         }
         .but2window {
@@ -74,9 +75,11 @@
     </script>
 </head>
 <body>
-    <div class="window" style="bottom: 375px; left: 30px;">
+    
+    <div class="window glass  active" style="top: 250px;  margin-left: auto;
+    margin-right: auto;">
         <div class="title-bar">
-            <div class="title-bar-text"><marquee direction="up">bridget <3</marquee></div>
+            <div class="title-bar-text" id="randomString">bridget <3</div>
             <div class="title-bar-controls">
                 <button aria-label="Minimize"></button>
                 <button aria-label="Restore"></button>
@@ -85,26 +88,17 @@
         </div>
         <div class="window-body">
             <article role="tabpanel" id="tab-A">
-                <h1 style="font-size: xx-large; color: purple;">hi my name is bridget, im a game developer from poland ✨</h1>
-                <p style="font-size: 2.4em;">i do silly stuff on the internet and like i really like music and gamedev and computer stuff, majoring in mechatronics (whatever the fuck that is), i have the music taste of a basic femme lesbian mixed with a uk roadman. i specifically live in silesia, quite boring here, all we can do is eat coal after all.. im really friendly but at the same time kinda scary but like you can dm me and ill defo respond :3...</p>
+                <h1 style="font-size: 2.4em; color: purple;">hi my name is bridget/nicole, i do silly stuff on the interwebs ✨</h1>
+                <p style="font-size: 2.4em;">i really like computers and stuff, im a gamedev and in general i like coding, ive been working for years atp on my game NOSLEEP (itll release one day i swear), im also working on two other projects called ONESHOT and WHITESPACE, i really like listening to music, although my music taste is <i>unique</i> to say the least, i live in poland, near katowice, im studying <a href="https://en.wikipedia.org/wiki/Mechatronics">mechatronics</a>, i dont enjoy it that much but whatever lol, im really bored most of the time, im quite silly lol, im a member of SF/SFU (although i dont live in denmark), im fluent in polish and english (learning danish, i can more or less understand it its just that i can barely speak it lol) and if you dm me i will 101% respond lol :3</p>
             </article>
         </div>
-        <div class="status-bar">
-            <p class="status-bar-field">version 43</p>
-            <p id="randomString"  class="status-bar-field">Press F1 for help</p>
-        </div>
+      
     </div>
 
   
 
-    <div class="window butwindow" style="bottom: 265px; left: 30px;">
-        <div class="title-bar">
-            <div class="title-bar-text"><p>LINKS TO MY STUFF !!</p></div>
-            <div class="title-bar-controls">
-                <button aria-label="Close"></button>
-            </div>
-        </div>
-        <div class="window-body">
+    <div class="butwindow is-bottom is-left" role="tooltip" style="bottom: 260px; left: 35.5%; right: 50%;">
+            <a href="https://github.com/koszyczek"><button>github</button></a>
             <a href="https://twitter.com/brdigei"><button>twitter</button></a>
             <a href="https://last.fm/user/BLNK_"><button>last.fm</button></a>
             <a href="https://pronouns.cc/@bridget"><button>pronouns.cc</button></a>
@@ -112,12 +106,20 @@
             <a href="https://www.facebook.com/hitshitquick/"><button display: flex>facebook</button></a>
             <a href="https://www.instagram.com/koszyczeklol/"><button display: flex>instagram</button></a>
             <a href="https://steamcommunity.com/id/koszyczek/"><button>steam</button></a>
+            <a href="https://www.facebook.com/hitshitquick/"><button>facebook</button></a>
             <a href="https://web-production-4268.up.railway.app/"><button>nightscout (iykyk)</button></a>
-        </div>
     </div>
 
-    <div class="window but2window" style="bottom: 40px; left: 30px;">
+    <div class="window glass active but2window" style="bottom: 40px; left: 30px;">
+        <div class="title-bar">
+            <div class="title-bar-text">:3</div>
+            <div class="title-bar-controls">
+              <button aria-label="Minimize"></button>
+              <button aria-label="Close"></button>
+            </div>
+          </div>
         <div class="window-body">
+            <center>
             <img src="https://cyber.dabamos.de/88x31/ienuke.gif" alt="rahhh">
             <img src="https://cyber.dabamos.de/88x31/piss.gif" alt="rawr">
             <img src="https://cyber.dabamos.de/88x31/hatemac_b.gif" alt="rawr">
@@ -138,7 +140,13 @@
             <img src="https://cyber.dabamos.de/88x31/crushit.gif" alt="rawr">
             <img src="https://cyber.dabamos.de/88x31/1080p.gif" alt="rawr">
             <img src="https://cyber.dabamos.de/88x31/blink-0.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/gratis-sex-fotos.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/gaywebring.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/nft.gif" alt="rawr">
+            <img src="https://cyber.dabamos.de/88x31/mspaint.gif" alt="rawr">
+        </center>
         </div>
     </div>
+
 </body>
 </html>

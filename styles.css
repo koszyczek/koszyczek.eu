@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'lin';
+    src: url('linlib.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body 
+{ 
+    background-attachment: fixed;
+    background-color: #6b00c2;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'lin'; 
+    margin: 0; 
+    padding: 0;
+}
+
+li, p       
+{ 
+    line-height: 1.3em; 
+    font-size: 1.1em;
+}
+
+h3
+{
+    font-size: 1.6em;
+    color: #6b00c2;
+}
+
+.bar
+{
+    font-size: 0.9em;
+}
+
+
+a img  
+{
+     border: none; 
+}
+
+
+ul          
+{ 
+    list-style-image: url('dot.gif');
+}
+
+ul li ul    
+{ 
+    list-style-image: url('dot2.gif');
+}
+
+.nav  
+{ 
+    background-color: #eeeeee; margin: 15px 0 15px 0; padding: 5px; 
+}
+.nav ul    
+{ 
+    list-style: none; margin: 0; padding: 0; 
+}
+.nav ul li
+{
+    display: inline;
+}
+
+#container  
+{
+    background-color: #ffffff; 
+    background-image: url('note.gif'); 
+    background-repeat: repeat-y; 
+    padding: 25px 25px 25px 50px; 
+    width: 640px; 
+}
+
+.back a 
+{ 
+    vertical-align: top;
+}
+
+.hr 
+{ 
+    text-align: center; 
+}
+
+a.nav-link:link
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:visited
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:active
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+
+.quotes
+{
+    margin-top: 2px;
+    font-size: 0.7em;
+}

@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'lin';
-    src: url('linlib.ttf') format('truetype');
+    src: url('LinLibertine_R.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

@@ -54,6 +54,7 @@ fetch(nightscoutUrl)
 "This video definitely tickled my funny bone! 😂🦴 I ABSOLUTELY gotta let my bookclub know about this! - Leafy",
 "hows it like in school? have they beaten you up yet? - Królowa Loda (org. message in polish)",
 "I ever tell you about the time Keith and I made fireworks? - Ellis (from L4D2)",
+"you like if a man and a woman had a child - Ethera",
 ];
   window.onload = function() {
       var randomIndex = Math.floor(Math.random() * strings.length);

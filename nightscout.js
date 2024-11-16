@@ -24,7 +24,7 @@ fetch(nightscoutUrl)
  
       const nightscoutElement = document.getElementById('nightscout');
       if (nightscoutElement) {
-        nightscoutElement.innerHTML = `${bloodSugar} mg/dL ${directionArrows[direction] || direction}`;
+        nightscoutElement.innerHTML = `${bloodSugar} mg/dL`;
       }
     } else {
       document.getElementById('nightscout').innerHTML = "No data available.";
@@ -55,6 +55,7 @@ fetch(nightscoutUrl)
 "hows it like in school? have they beaten you up yet? - Królowa Loda (org. message in polish)",
 "I ever tell you about the time Keith and I made fireworks? - Ellis (from L4D2)",
 "you look like if a man and a woman had a child - Ethera",
+"REST IN PEACE: KOSZYCZEK.GITHUB.IO (MAY 17TH 2023 - 15TH NOVEMBER 2024)",
 ];
   window.onload = function() {
       var randomIndex = Math.floor(Math.random() * strings.length);

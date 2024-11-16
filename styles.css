@@ -9,13 +9,16 @@ body
 { 
     background-attachment: fixed;
     background-color: #6b00c2;
-    background-image: url('background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'lin'; 
+    background-image: url('https://media.tenor.com/SpcyAfb2rNEAAAAM/osaka-azumanga-daioh.gif');
     margin: 0; 
     padding: 0;
 }
+
+*
+{
+    font-family: 'lin'; 
+}
+
 
 li, p       
 { 
@@ -53,7 +56,7 @@ ul li ul
 
 .nav  
 { 
-    background-color: #eeeeee; margin: 15px 0 15px 0; padding: 5px; 
+    background-color: #00000028; margin: 15px 0 15px 0; padding: 5px; 
 }
 .nav ul    
 { 
@@ -71,8 +74,6 @@ ul li ul
     background-repeat: repeat-y; 
     padding: 25px 25px 25px 50px; 
     width: 700px;
-    box-shadow: black;
-    
 }
 
 .back a 
@@ -109,5 +110,12 @@ a.nav-link:active
 .quotes
 {
     margin-top: 2px;
+    margin-left: 1em;
     font-size: 0.7em;
+}
+
+.bg
+{
+    color: red;
+    font-style: italic;
 }

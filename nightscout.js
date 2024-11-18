@@ -24,7 +24,7 @@ fetch(nightscoutUrl)
  
       const nightscoutElement = document.getElementById('nightscout');
       if (nightscoutElement) {
-        nightscoutElement.innerHTML = `${bloodSugar} mg/dL`;
+        nightscoutElement.textContent = `${bloodSugar} mg/dL`;
       }
     } else {
       document.getElementById('nightscout').innerHTML = "No data available.";

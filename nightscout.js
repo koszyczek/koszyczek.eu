@@ -53,9 +53,10 @@ fetch(nightscoutUrl)
 "I ATE HEAPS OF TIDE PODS IN 2017 - Bridget",
 "This video definitely tickled my funny bone! 😂🦴 I ABSOLUTELY gotta let my bookclub know about this! - Leafy",
 "hows it like in school? have they beaten you up yet? - Królowa Loda (org. message in polish)",
-"I ever tell you about the time Keith and I made fireworks? - Ellis (from L4D2)",
 "you look like if a man and a woman had a child - Ethera",
 "REST IN PEACE: KOSZYCZEK.GITHUB.IO (MAY 17TH 2023 - 15TH NOVEMBER 2024)",
+"Santa crashed into a tower he is dead GGs - Lurit",
+
 ];
   window.onload = function() {
       var randomIndex = Math.floor(Math.random() * strings.length);

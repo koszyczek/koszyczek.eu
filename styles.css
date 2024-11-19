@@ -26,12 +26,12 @@ body
 li, p       
 { 
     line-height: 1.3em; 
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 h3
 {
-    font-size: 1.6em;
+    font-size: 1.4em;
     color: #6b00c2;
 }
 
@@ -76,7 +76,7 @@ ul li ul
     background-image: url('note.gif'); 
     background-repeat: repeat-y; 
     padding: 25px 25px 25px 50px; 
-    width: 810px;
+    width: 710px;
 }
 
 .back a 

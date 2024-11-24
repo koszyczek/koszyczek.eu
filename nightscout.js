@@ -36,18 +36,10 @@ fetch(nightscoutUrl)
   });
 
   var strings = [    
-    "Fuck you Bridget - Lurit",
-    "öö - estonia - Lurit",
-    "Cheese.  - Lurit",
-     "I am sucking a tank exhaust - Lurit",
-     "GLORY TO JOHN DILLLERRMANDD - Lurit",
-     "sperma byka - Królowa Loda",
      "România Markiplier - Solus",
 "you know what? I could massacre and nail leftists to the fence - Królowa Loda",
-"fuck you bridget - KinitoPET (may or may not be real)",
 "if i wont kill myself in 2024 ill become an furry artist - Bridget",
 "flif floneee!! yippiee!! - Dani",
-"co do sigmy - Dani",
 "PLEASE VC WITH ME IM BEGGING YOU - Bridget to Dani",
 "come listen to femtanyl, we have: ear damage - FLXY",
 "I ATE HEAPS OF TIDE PODS IN 2017 - Bridget",
@@ -55,6 +47,7 @@ fetch(nightscoutUrl)
 "hows it like in school? have they beaten you up yet? - Królowa Loda (org. message in polish)",
 "you look like if a man and a woman had a child - Ethera",
 "REST IN PEACE: KOSZYCZEK.GITHUB.IO (MAY 17TH 2023 - 15TH NOVEMBER 2024)",
+"you know your like house because your autistic and im wilson because i keep on putting up with your shit - FLXY",
 "Santa crashed into a tower he is dead GGs - Lurit",
 
 ];

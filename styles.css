@@ -1,16 +1,11 @@
-@font-face {
-    font-family: 'lin';
-    src: url('mononoki-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.cdnfonts.com/css/linux-libertine-o');
 
 body 
 { 
     background-attachment: fixed;
     background-color: #6b00c2;
-    background-image: url('https://i.imgur.com/7yPM7Hb.gif');
-    background-size: 120%;
+    background-image: url('https://imgs.search.brave.com/Ws853Z59w8nvtnEiTk8_ZaRBVW9JZl0REvCVDGqWv9A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly82NC5t/ZWRpYS50dW1ibHIu/Y29tLzAxMGM0NjA2/N2IyOWI3MTBjZTlh/NTA4ZmI0MTcxZGZi/L3R1bWJscl9pbmxp/bmVfbjF1Ym5qSlhk/ejFxbXZ3NmIuZ2lm.gif');
+    background-repeat: repeat;
     background-position-y: -300px;
     background-position-x: -190px;
     margin: 0; 
@@ -19,7 +14,7 @@ body
 
 *
 {
-    font-family: 'lin'; 
+    font-family: 'Linux Libertine O';
 }
 
 
@@ -76,7 +71,7 @@ ul li ul
     background-image: url('note.gif'); 
     background-repeat: repeat-y; 
     padding: 25px 25px 25px 50px; 
-    width: 710px;
+    width: 600px;
 }
 
 .back a 

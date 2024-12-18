@@ -84,36 +84,10 @@ ul li ul
     text-align: center; 
 }
 
-a.nav-link:link
-{
-   color: #fb3f00;
-   text-decoration: none;
-}
-a.nav-link:visited
-{
-   color: #fb3f00;
-   text-decoration: none;
-}
-a.nav-link:hover
-{
-   color: #fb3f00;
-   text-decoration: none;
-}
-a.nav-link:active
-{
-   color: #fb3f00;
-   text-decoration: none;
-}
 
 .quotes
 {
     margin-top: 2px;
     margin-left: 1em;
     font-size: 0.9em;
-}
-
-.bg
-{
-    color: red;
-    font-style: italic;
 }
